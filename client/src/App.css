@@ -1,0 +1,45 @@
+/* Ensure the card image maintains a fixed aspect ratio */
+.card-img-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+}
+
+/* Prevent text overflow in card titles */
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Ensure card text wraps properly */
+.card-text {
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/* Prevent cards from stretching */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+/* Align the button to the bottom-left */
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-start; /* Aligns the button to the left */
+}

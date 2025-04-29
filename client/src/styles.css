@@ -1,0 +1,22 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px; 
+}
+
+body {
+  background: #ffffff;
+  font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.blog-img{
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+}
+/* footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+} */
