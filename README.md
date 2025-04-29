@@ -6,8 +6,8 @@
 
 ## Live Deployment
 
-- **Frontend (Vercel)**: https://your-vercel-app-url.vercel.app  
-- **Backend (Render)**: https://your-render-app-url.onrender.com
+- **Frontend (Vercel)**: https://blogus-lime.vercel.app 
+- **Backend (Render)**: https://blogus-iukr.onrender.com
 
 > Replace these with your actual URLs after deployment.
 
@@ -78,7 +78,7 @@ Blogus/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/blogus.git
+git clone https://github.com/NematSiddique/blogus.git
 cd blogus
 ```
 
